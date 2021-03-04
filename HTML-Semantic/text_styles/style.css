@@ -1,0 +1,36 @@
+#texts1{
+    color: black;
+    text-align: left;
+    text-decoration: overline underline wavy;
+    text-indent: 8px;
+    line-height: 50px;
+}
+
+#texts2{
+    color: blue;
+    text-align: right;
+    text-decoration: underline solid black;
+    letter-spacing: 2px;
+}
+
+#texts3{
+    color: rgba(9, 12, 159, 0.8);
+    text-align: justify;
+    text-decoration: line-through;
+    text-decoration-color: black;
+    text-transform: uppercase;
+    direction: rtl;
+    word-spacing: 5px;
+}
+
+#texts4{
+    color: hsla(120,60%, 70%, 0.3);
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+#texts5{
+    color: rgba(12, 11,1, 0.7);
+    text-shadow: 2px 2px 2px blue;
+}
