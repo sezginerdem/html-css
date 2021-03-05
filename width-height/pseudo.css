@@ -1,0 +1,26 @@
+a:link{
+    color:red
+}
+a:visited{
+    color: black;
+}
+a:hover{
+    color: mediumspringgreen;
+}
+a{
+    margin: 40px;
+    outline:5px solid aquamarine;
+    transition: all ease-in-out 300ms;
+}
+#link:hover{
+    color: mediumspringgreen;
+    cursor: pointer;
+}
+p{
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+}
+div:hover + p{
+    display: block;
+}
