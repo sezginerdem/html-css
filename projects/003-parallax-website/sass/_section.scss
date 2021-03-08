@@ -38,3 +38,8 @@ section{
     }
 
 }
+
+.section-dark{
+    background-color: $secondaryColor import !important;
+    color: $primaryColor !important;
+}
