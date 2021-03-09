@@ -1,0 +1,12 @@
+.main-block{
+    background: yellow;
+    p{
+        color: $primaryTextColor;
+    }
+    div{
+        background: cyan;
+        p{
+            color: $secondaryTextColor;
+        }
+    }
+}
