@@ -1,0 +1,38 @@
+/*
+Error: Invalid CSS after "h1": expected selector or at-rule, was "{"
+        on line 4 of ./sass/style.scss
+
+1: @import "theme";
+2: @import "main-blok"
+3: 
+4: h1{
+5:     color:$primaryTextColor;
+6:     text-align
+7: }
+8: /* 
+9: div {
+
+Backtrace:
+./sass/style.scss:4
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1308:in `expected'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:1238:in `expected'
+/usr/lib/ruby/vendor_ruby/sass/scss/parser.rb:42:in `parse'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:414:in `_to_tree'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:389:in `_render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/engine.rb:307:in `render_with_sourcemap'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `each'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/usr/lib/ruby/vendor_ruby/sass/plugin/compiler.rb:294:in `watch'
+/usr/lib/ruby/vendor_ruby/sass/plugin.rb:109:in `method_missing'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:354:in `watch_or_update'
+/usr/lib/ruby/vendor_ruby/sass/exec/sass_scss.rb:51:in `process_result'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:50:in `parse'
+/usr/lib/ruby/vendor_ruby/sass/exec/base.rb:18:in `parse!'
+/usr/bin/sass:8:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"h1\": expected selector or at-rule, was \"{\"\A         on line 4 of ./sass/style.scss\A \A 1: @import \"theme\";\A 2: @import \"main-blok\"\A 3: \A 4: h1{\A 5:     color:$primaryTextColor;\A 6:     text-align\A 7: }\A 8: /* \A 9: div {"; }
